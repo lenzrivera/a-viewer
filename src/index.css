@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    height: 100%;
+
+    background-color: black;
+}
+
+
+#rootContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+
+#canvasContainer {
+    margin-top: 2%;
+    height: 100%;
+
+    /* Constrain the canvas to only the default size of this container.*/
+    overflow: hidden;
+}
+
+#canvas {
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 100%;
+}
+
+
+#controlsContainer {
+    margin: 2%;
+}
+
+#fileInput {
+    display: block;
+    margin: auto;
+
+    color: white;
+}
+
+#instructions {
+    margin: 0;
+    text-align: center;
+    
+    color: white;
+}

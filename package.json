@@ -1,0 +1,12 @@
+{
+  "name": "a-viewer",
+  "version": "1.0.0",
+  "description": "a viewer for a paper",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./src -a localhost -p 80"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
